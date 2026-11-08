@@ -1,9 +1,9 @@
 node_modules/
 .env
 # Candidate data is personal data (PDPA): never commit resumes, results, statuses or logs
-candidates/
-jobs/
-.screening/
-output/
-data/
-logs/
+/candidates/
+/jobs/
+/.screening/
+/output/
+/data/
+/logs/
