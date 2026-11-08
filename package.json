@@ -1,0 +1,23 @@
+{
+  "name": "recruitment-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered recruitment assistant: fair, explainable resume screening, shortlists, interview kits and email drafts, powered by Claude",
+  "type": "module",
+  "scripts": {
+    "start": "node recruiter.mjs"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "mammoth": "^1.13.0",
+    "unpdf": "^2.1.0",
+    "zod": "^4.6.7"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}
